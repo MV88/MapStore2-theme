@@ -510,10 +510,6 @@ div.ol-scale-line-inner{
     color: white;
 }
 
-.modal {
-	overflow-y: auto !important;
-}
-
 .modal-body {
     background-color: white;
     max-height: calc(100vh - 190px);
