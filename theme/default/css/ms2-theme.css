@@ -495,7 +495,6 @@ div.ol-scale-line-inner{
 	padding: 15px;
 }
 
-
 .modal-header button.close {
     margin-top: -7px;
     opacity: 1;
@@ -510,11 +509,17 @@ div.ol-scale-line-inner{
     opacity: 0.5;
     color: white;
 }
+
 .modal {
 	overflow-y: auto !important;
 }
+
 .modal-body {
     background-color: white;
     max-height: calc(100vh - 190px);
     overflow-y: auto;
+}
+
+.react-draggable .draggable-header {
+    cursor: move;
 }
